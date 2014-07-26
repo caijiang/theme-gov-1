@@ -2,3 +2,23 @@
 .full-form-item-default{
     width: 100%;
 }
+
+
+
+.wzformborder{
+    border-right:1px solid #0099CC;
+    border-bottom:1px solid #0099CC;
+}
+
+.wzformlabel{
+    background-color: #f3fbfe;
+    border-right:1px solid #0099CC;
+    border-bottom:1px solid #0099CC;
+}
+
+table[wzform="1"] {
+    border-collapse:collapse;
+    border-spacing:0;
+    border-left:1px solid #0099CC;
+    border-top:1px solid #0099CC;
+}

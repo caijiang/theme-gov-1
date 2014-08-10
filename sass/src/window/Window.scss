@@ -1,0 +1,7 @@
+@include extjs-window-ui(
+$ui:'wzwindow',
+$ui-border-width:1px,
+$ui-header-background-color:transparentize($window-header-background-color,0.4),
+$ui-header-border-color:transparentize($window-header-background-color,0.4),
+$ui-background-color:transparent
+);

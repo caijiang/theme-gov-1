@@ -1,7 +1,12 @@
+@charset 'utf-8';
+
+/*transparentize*/
+
 @include extjs-window-ui(
 $ui:'wzwindow',
 $ui-border-width:1px,
-$ui-header-background-color:transparentize($window-header-background-color,0.4),
-$ui-header-border-color:transparentize($window-header-background-color,0.4),
-$ui-background-color:transparent
+$ui-header-background-color:#e3eefb,
+$ui-header-border-color:#e3eefb,
+$ui-header-color:#1272b8
+/*$ui-background-color:rgba(0,0,0,0)*/
 );

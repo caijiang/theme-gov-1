@@ -5,8 +5,11 @@
 @include extjs-window-ui(
 $ui:'wzwindow',
 $ui-border-width:1px,
-$ui-header-background-color:#e3eefb,
-$ui-header-border-color:#e3eefb,
-$ui-header-color:#1272b8
+$ui-header-background-color:darken(rgb(223, 234, 242),17),
+$ui-header-border-color:darken(rgb(223, 234, 242),7),
+$ui-header-inner-border-color:darken(rgb(223, 234, 242),17),
+$ui-border-color:darken(rgb(223, 234, 242),17)
+/*$ui-force-header-border:false*/
+/*$ui-header-color:#1272b8*/
 /*$ui-background-color:rgba(0,0,0,0)*/
 );
